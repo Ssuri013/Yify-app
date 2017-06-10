@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Yify</string>
+    <string name="title_activity_movie_info">MovieInfo</string>
+</resources>
