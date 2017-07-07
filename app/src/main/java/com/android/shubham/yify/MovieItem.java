@@ -16,10 +16,10 @@ public class MovieItem {
         rating = b;
     }
 
-    String getName(){
+    public String getName(){
         return name;
     }
-    String getPosterUrl(){
+    public String getPosterUrl(){
         return posterUrl;
     }
 

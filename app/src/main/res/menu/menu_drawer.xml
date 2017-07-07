@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_explore"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/drawer_popular"
+            android:title="Most popular"
+            />
+
+        <item android:id="@+id/drawer_rated"
+            android:title="Top rated"
+           />
+
+        <item android:id="@+id/drawer_upcoming"
+            android:title="upcoming"
+            />
+
+
+    </group>
+
+    <group android:id="@+id/group_movies"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/drawer_watched"
+            android:title="watched"
+            />
+
+        <item android:id="@+id/drawer_to_see"
+            android:title="To See"
+            />
+
+    </group>
+
+</menu>
